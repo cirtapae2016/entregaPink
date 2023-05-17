@@ -1,6 +1,6 @@
 
 body{
-  background-color: #6C969D;
+  background-color: #7EBDC2;
 }
 
 #minav{
@@ -13,18 +13,74 @@ h1,h2,h3,h4,h5, button, body{
 }
 
 #destacado{
-  background-color: rgb(219, 26,26);
+  background-color: #BB4430;
   position: relative;
   margin-top: -20px;
   z-index:10;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+#separator-ribbon{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#separator-ribbon .content{
+  width: 150%;
+  height: 50px;
+  margin-left: -25%;
+  border-bottom-left-radius: 98%;
+  border-bottom-right-radius: 98%;
+}
+
+
+.card-border{
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+  transform: scale(1.05);
+}
+
+#news-destacadas{
+  background: rgb(255,255,255);
+  background: url(../img/bg-02.png),  linear-gradient(0deg, #EFE6DD 0%, #7EBDC2 57%);
+  background-repeat: repeat-x;
+  background-size: 75%;
+  margin-top: -20px;
+}
+
+.card-border{
+  border: solid 10px white;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+.card-border:hover{
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     
       padding: 20px 0;
       position: relative;
+     
     }
     
     .footer-container {
