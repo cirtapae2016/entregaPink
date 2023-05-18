@@ -1,14 +1,19 @@
 
-body{
+/*body{
   background-color: #7EBDC2;
 }
+*/
 
 #minav{
   background-color: #800080;
 }
 
+body {
+  background-color: #212529;
+}
 h1,h2,h3,h4,h5, button, body{
   font-family: 'Bitter', serif;
+  color: #F3DFA2;
 
 }
 
@@ -17,7 +22,7 @@ h1,h2,h3,h4,h5, button, body{
   position: relative;
   margin-top: -20px;
   z-index:10;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px #F3DFA2;
 }
 
 #separator-ribbon{
@@ -49,7 +54,7 @@ h1,h2,h3,h4,h5, button, body{
 
 #news-destacadas{
   background: rgb(255,255,255);
-  background: url(../img/bg-02.png),  linear-gradient(0deg, #EFE6DD 0%, #7EBDC2 57%);
+  background: url(../img/bg-02.png),  linear-gradient(0deg, #1A181B 0%, #212529 57%);
   background-repeat: repeat-x;
   background-size: 75%;
   margin-top: -20px;
@@ -66,21 +71,10 @@ h1,h2,h3,h4,h5, button, body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 footer {
     
       padding: 20px 0;
       position: relative;
-     
     }
     
     .footer-container {
@@ -116,7 +110,7 @@ footer {
     }
   
     footer li a{
-      color: #FFF;
+      color: #F3DFA2;
       text-decoration: none;
       font-weight: bold;
     }
@@ -131,8 +125,8 @@ footer {
   
     footer li a:hover{
       padding: 5px 10px;
-      background-color: #800080;
-      color: #FFF;
+      background-color: #EFE6DD;
+      color: #BB4430;
       border-radius: 15px;
       transition: all 0.5s ;
   }
