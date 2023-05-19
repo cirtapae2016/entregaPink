@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5, button, body{
 
 
 .card-border{
-  border: solid 10px white;
+  border: solid 10px #7EBDC2;
   border-radius: 20px;
   overflow: hidden;
   transition: all ease-out 0.2s;
@@ -63,10 +63,11 @@ h1,h2,h3,h4,h5, button, body{
 }
 
 .card-border{
-  border: solid 10px white;
+  border: solid 10px #BB4430;
   border-radius: 20px;
   overflow: hidden;
   transition: all ease-out 0.2s;
+  box-shadow: 0 0 10px #F3DFA2;
 }
 .card-border:hover{
   transform: scale(1.05);
