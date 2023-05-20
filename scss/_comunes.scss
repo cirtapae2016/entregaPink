@@ -1,0 +1,136 @@
+/*body{
+  background-color: $color-terciario;
+}
+*/
+
+#minav{
+    background-color: #15191d;
+}
+
+
+body {
+    background-color: $color-body;
+}
+
+h1,h2,h3,h4,h5, button, body {
+    font-family: 'Bitter', serif;
+    color: $color-principal;
+}
+
+
+#destacado{
+    background-color: $color-secundario;
+    position: relative;
+    margin-top: -20px;
+    z-index:10;
+    box-shadow: 0 0 10px $color-principal;
+}
+
+
+.card-border{
+    border: solid 10px $color-terciario;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+#news-destacadas{
+    background: rgb(255,255,255);
+    background: url(../img/bg-02.png),  linear-gradient(0deg, #1A181B 0%, #212529 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+
+.card-border{
+    border: solid 10px $color-secundario;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+    box-shadow: 0 0 10px $color-principal;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+
+.contacto {
+    background-image: url('../img/contacto.jpg'); 
+    background-size: cover;
+  
+  }
+  .colorp {
+    color: $color-principal;
+  }
+  
+  .btn-pink {
+    background-color: $color-secundario;
+    color: $color-principal;
+  }
+  .btn-pink:hover {
+    background-color: $color-principal;
+    color: $color-secundario;
+  }
+  
+  footer {
+      
+        padding: 20px 0;
+        position: relative;
+      }
+      
+      .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        }
+      
+      footer p {
+        color: $color-secundario;
+        margin-top: 5px;
+        margin-bottom: 15px;
+      }
+      
+      footer nav {
+        text-align: center;
+      }
+      
+      footer ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      footer li {
+        margin: 0 10px;
+      }
+    
+      footer li a{
+        color: $color-principal;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      
+      footer li:first-child {
+        margin-left: 0;
+      }
+      
+      footer li:last-child {
+        margin-right: 0;
+      }
+    
+      footer li a:hover{
+        padding: 5px 10px;
+        background-color: $color-principal;
+        color: $color-secundario;
+        border-radius: 15px;
+        transition: all 0.5s ;
+    }
