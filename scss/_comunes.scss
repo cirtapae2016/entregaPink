@@ -57,6 +57,7 @@ h1,h2,h3,h4,h5, button, body {
     transform: scale(1.05);
 }
 
+
 .contacto {
     background-image: url('../img/contacto.jpg'); 
     background-size: cover;
@@ -64,6 +65,10 @@ h1,h2,h3,h4,h5, button, body {
   }
   .colorp {
     color: $color-principal;
+  }
+
+  .colorT {
+    color: $color-terciario;
   }
   
   .btn-pink {
