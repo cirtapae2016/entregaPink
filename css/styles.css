@@ -6,6 +6,10 @@
   background-color: #15191d;
 }
 
+.navbar-brand img {
+  width: 180px;
+}
+
 body {
   background-color: #212529;
 }
@@ -108,6 +112,7 @@ footer ul {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 footer li {
@@ -134,6 +139,13 @@ footer li a:hover {
   color: #BB4430;
   border-radius: 15px;
   transition: all 0.5s;
+}
+
+@media (max-width: 400px) {
+  footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -7,6 +7,9 @@
     background-color: $color-background;
 }
 
+.navbar-brand img{
+width: 180px;
+}
 
 body {
     background-color: $color-body;
@@ -81,7 +84,6 @@ h1,h2,h3,h4,h5, button, body {
   }
   
   footer {
-      
         padding: 20px 0;
         position: relative;
       }
@@ -112,6 +114,7 @@ h1,h2,h3,h4,h5, button, body {
         margin: 0;
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
       }
       
       footer li {
@@ -139,3 +142,4 @@ h1,h2,h3,h4,h5, button, body {
         border-radius: 15px;
         transition: all 0.5s ;
     }
+
