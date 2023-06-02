@@ -4,7 +4,7 @@
 */
 
 #minav{
-    background-color: #15191d;
+    background-color: $color-background;
 }
 
 
@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5, button, body {
 
 #news-destacadas{
     background: rgb(255,255,255);
-    background: url(../img/bg-02.png),  linear-gradient(0deg, #1A181B 0%, #212529 57%);
+    background: url(../img/bg-02.png),  linear-gradient(0deg, $color-negroespecial 0%, $color-body 57%);
     background-repeat: repeat-x;
     background-size: 75%;
     margin-top: -20px;
@@ -58,8 +58,8 @@ h1,h2,h3,h4,h5, button, body {
 }
 
 
-.contacto {
-    background-image: url('../img/contacto.jpg'); 
+#contacto {
+    background-image: url(../img/contacto.jpg); 
     background-size: cover;
   
   }
