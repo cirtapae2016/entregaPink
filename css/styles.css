@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, button {
 }
 
 .card-border {
-  border: solid 10px #7EBDC2;
+  border: solid 10px #BB4430;
   border-radius: 20px;
   overflow: hidden;
   transition: all ease-out 0.2s;
